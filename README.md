@@ -1,6 +1,6 @@
-# 🌸 Clasificación de Plantas Iris con Regresión Lineal
-
-## 📌 Descripción del Proyecto
+#  Clasificación de Plantas Iris con Regresión Lineal
+Samuel Cuta y Gina Alvarado
+##  Descripción del Proyecto
 Este proyecto implementa un **sistema de clasificación de plantas del dataset Iris** usando el algoritmo de **Regresión Lineal en un esquema One-vs-Rest (OvR)**.  
 
 El sistema permite que el usuario ingrese las características de una nueva planta (longitud de sépalo, ancho de sépalo y longitud de pétalo) y el modelo determina a qué especie pertenece:  
@@ -15,7 +15,7 @@ Además, se generan **gráficas 3D** que muestran:
 
 ---
 
-## ⚙️ Metodología
+## Metodología
 
 1. **Dataset Iris**  
    Se utilizó el clásico dataset de **Iris** de `sklearn.datasets`, que contiene 150 registros de 3 especies de flores con sus características.
@@ -44,7 +44,7 @@ Además, se generan **gráficas 3D** que muestran:
 
 ---
 
-## 📊 Ejemplo de Uso
+## Ejemplo de Uso
 
 ### Entrada del usuario:
 ```
@@ -66,14 +66,14 @@ Puntajes de regresión: [0.92, -0.10, 0.05]
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 - **Python 3.13**  
 - **scikit-learn** → para regresión lineal y dataset Iris  
 - **matplotlib** → para visualizaciones 3D  
 
 ---
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 1. Clonar el repositorio o copiar el script `Iris.py`.  
 2. Instalar dependencias:
    ```bash
@@ -87,7 +87,7 @@ Puntajes de regresión: [0.92, -0.10, 0.05]
 
 ---
 
-## 📌 Conclusiones
+##  Conclusiones
 - Aunque la **Regresión Lineal** no es un algoritmo diseñado originalmente para clasificación, al usarla bajo el enfoque **One-vs-Rest** es posible clasificar correctamente las plantas del dataset Iris.  
 - Este enfoque es una introducción sencilla a cómo se pueden transformar problemas de clasificación en tareas de regresión.  
 - Las gráficas permiten **visualizar los planos de decisión** y cómo se ubican los nuevos puntos en relación al dataset.  
